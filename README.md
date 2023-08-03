@@ -5,19 +5,17 @@ Here I have used Convolutional neural networks to implement cats vs dogs classif
 Special thanks to: Laurence Moroney, Andrew ng.
 ![Gif](https://github.com/KunalAnand2907/CNN_Dog-Cat_Classification/blob/master/img.gif)
 
-Dependencies:
-TensorFlow
+## Dependencies:
+1. TensorFlow
+2. Python 3.6
+3. Numpy
 
-Python 3.6
-
-Numpy
-
-Dataset:
+## Dataset:
 Data is downloaded from Kaggle.
 
-!kaggle datasets download -d chetankv/dogs-cats-images
+https://www.kaggle.com/c/dogs-vs-cats/data
 
-Approach:
+## Approach:
 Here I am using transfer learning procedure to get good accuracy for my model
 
 1.) Take weights of the inception model up to ‘mixed7’ layer and make them untrainable.
@@ -30,5 +28,5 @@ Here I am using transfer learning procedure to get good accuracy for my model
 
 5.) Dense layers with 1 node and with sigmoid activation function.
 
-Conclusion:
+## Conclusion:
 Cats vs Dogs classifier with 95% accuracy on Training data.
