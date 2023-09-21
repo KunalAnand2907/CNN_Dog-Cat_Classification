@@ -3,7 +3,7 @@
 Here I have used Convolutional neural networks to implement cats vs dogs classifier. This entire project is done using keras in TensorFlow.
 
 Special thanks to: Laurence Moroney, Andrew ng.
-![Gif](https://github.com/KunalAnand2907/CNN_Dog-Cat_Classification/blob/master/img.gif)
+![Gif](https://data-flair.training/blogs/wp-content/uploads/sites/2/2020/05/Cats-Dogs-Classification-deep-learning.gif)
 
 ## Dependencies:
 1. TensorFlow
